@@ -20,7 +20,7 @@ var w = 0;
     var h = 0;
  while(h < 600){
  drawHome(x, 10)
- drawHome(x, 10)
+ drawHome(x+50,100)
  h += 90;
  }
     
@@ -55,8 +55,8 @@ var drawHome = function(homeX, homeY){
 noStroke();
 fill(245, 56, 56)
 rect(20, 300, 150, 75)
-rect(homeX-0, homeY350, 200, 75)
-rect(homeX40, homeY400, 110, 75)
+rect(homeX+200, homeY+50, 200, 75)
+rect(homeX, homeY+90, 110, 75)
 }
 
 
