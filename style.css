@@ -6,6 +6,7 @@ body {
   background-attachment: fixed; 
   margin-top: 10%;
   font-family: Georgia, serif;
+  background-image:
 }
 
 html{
@@ -14,13 +15,13 @@ html{
 }
 
 #myCanvas {
-  border: 1px solid black;
+  border: 1px solid gold;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: pink;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
@@ -30,11 +31,11 @@ html{
   height: 600px;
   width: 400px;
   object-fit: cover;
-  border: 1px solid black;
+  border: 1px solid pink;
 }
 
 h2{
-  color: black;
+  color: blue;
 }
 
 #start{
